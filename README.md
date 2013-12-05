@@ -781,7 +781,7 @@ value(...args)              promise.fapply([args])
 value(...args)              promise.fcall(...args)
 ```
 
-If the promise is a proxy for a remote object, you can shave
+If the promise is a proxy for a remote object, you can save
 round-trips by using these functions instead of ``then``.  To take
 advantage of promises for remote objects, check out [Q-Connection][].
 
